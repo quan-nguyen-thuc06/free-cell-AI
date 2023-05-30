@@ -141,7 +141,7 @@ for ep in range(n_episodes):
 
         state = next_state
         ep_rewards += reward
-        print(action, reward, "numOfMoves: ", env.numOfMove)
+        # print(action, reward, "numOfMoves: ", env.numOfMove)
         env.printBoard()
         if terminal:
             print("Ep ", ep+1, " reach terminal with reward = ", ep_rewards)
